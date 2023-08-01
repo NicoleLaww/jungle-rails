@@ -48,8 +48,12 @@ main section.categories-show {
         h1 {
           color: white;
         }
-
         button {
+          background: white;
+          color: rgba(0, 130, 29, 0.7);
+        }
+
+        .soldout {
           background: white;
           color: rgba(0, 130, 29, 0.7);
         }
