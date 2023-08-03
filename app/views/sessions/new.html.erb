@@ -1,0 +1,16 @@
+<header class="page-header">
+  <h1 class="login">Login</h1>
+</header>
+<%= form_tag 'login' do %> 
+  <div class="login-row">
+    <div class="login-group">
+      Email: <%= text_field_tag :email %> 
+    </div>
+    <div class="login-group">
+      Password: <%= text_field_tag :password %> 
+    </div>
+  </div>
+  <div class="submit">
+  <%= submit_tag "Submit" %>
+  </div>
+<% end %>

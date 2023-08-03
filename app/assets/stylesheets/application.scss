@@ -123,3 +123,16 @@ div.order-summary.jumbotron {
 .empty-phrase {
   margin-top: 1em;
 }
+
+.authenticate {
+  color: #FFFFFF8C;
+  text-decoration: none;
+
+ &:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+}
+
+.name-display {
+  color: white;
+}

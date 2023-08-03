@@ -1,0 +1,25 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.form-group {
+  margin-right: 1em;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5em;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
